@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random-password-generator</title>
+    
+    <link rel="stylesheet" href="output.css">
+    <script src="script.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+</head>
+<body class="bg-slate-900">
+    <div class="m-[12%] w-[90%] max-w-[600px] bg-white  rounded-md border-4 border-green-700  justify-between ml-[30%]">
+        <h1 class="text-4xl text-black font-custom text-center mt-9">Random-password<br> <span class="border-b-4 border-black text-red-500">generator</span></h1>
+
+
+        <div class="mt-[50px] m-7 w-[70%] flex items-center justify-between  rounded-lg border-dashed border-red-500 border-4 ">
+            <input type="text" id="password" placeholder="Password" class="p-4 align-middle text-left cursor-pointer border-transparent border-0 outline-0">
+            <img id="cpyBtn" class="h-auto w-8 pr-2 cursor-pointer " src="assets/copy.png" alt="">
+        </div>
+     
+        <button id="btn" class=" flex border-4 rounded-md border-white text-white bg-green-700 p-2 hover:bg-red-600 m-4 hover:text-black hover:bold "> <img src="assets/generate.png" alt="" class="w-4 h-auto">Generate Password</button> 
+    </div>
+       
+</body>
+</html>
